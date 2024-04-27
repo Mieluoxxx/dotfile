@@ -12,6 +12,5 @@ source $ZSH/oh-my-zsh.sh
 eval "$(zoxide init zsh)"
 
 alias ls='lsd'
-alias vim='hx'
 alias cd='z'
 
