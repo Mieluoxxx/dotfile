@@ -7,3 +7,4 @@ Exciting Apps
 4. git-cz
 5. warp
 6. pnpm
+7. bat
