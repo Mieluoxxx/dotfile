@@ -18,15 +18,6 @@ cargo install starship
 
 echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 source ~/.zshrc
-
-cat > ~/.config/starship.toml <<EOF
-"$schema" = 'https://starship.rs/config-schema.json'
-add_newline = true
-[character]
-success_symbol = '➜'
-[package]
-disabled = true
-EOF
 ```
 
 ## kitty
