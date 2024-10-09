@@ -1,4 +1,4 @@
-# mydotfile
+# dotfile
 
 ## zsh(Linux 流编辑)
 ```bash
@@ -40,15 +40,3 @@ confirm_os_window_close 0
 remember_window_size = yes
 EOF
 ```
-
-## astronvim
-```bash
-git clone https://github.com/Mieluoxxx/astronvim_config ~/.config/nvim
-nvim --headless -c 'quitall'
-```
-
-## Typora
-[Typora Themes forest](https://github.com/sylviaxgj/typora-forest-theme/archive/refs/tags/v0.1.8.zip)
-
-
-
