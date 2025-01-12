@@ -12,13 +12,6 @@ sed -i '/^plugins=(/ s/)$/ zsh-autosuggestions zsh-completions zsh-syntax-highli
 source ~/.zshrc
 ```
 
-## starship
-```bash
-cargo install starship
-
-echo 'eval "$(starship init zsh)"' >> ~/.zshrc
-source ~/.zshrc
-```
 
 ## kitty
 ```bash
@@ -40,3 +33,7 @@ confirm_os_window_close 0
 remember_window_size = yes
 EOF
 ```
+
+## vscode 插件
+`koroFileHeader`
+`C++ TestMate`
