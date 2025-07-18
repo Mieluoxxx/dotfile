@@ -1,7 +1,7 @@
 # Don't print a new line at the start of the prompt
 add_newline = false
 # Pipes ╰─ ╭─
-# Powerline symbols                                     
+# Powerline symbols  ╰ ╱ ╲ ╳ ╴ ╵ ╶ ╷ ╸ ╹ ╺ ╻ ╼ ╽ ╾ ╿ 
 # Wedges 🭧🭒 🭣🭧🭓
 # Random noise 🬖🬥🬔🬗
 
@@ -10,14 +10,14 @@ add_newline = false
 # $character
 # """
 format = """
-$cmd_duration$directory $git_branch
+$cmd_duration$directory $git_branch $time
 $character
 """
 
-# Replace the "❯" symbol in the prompt with "➜"
+# Replace the "❯" symbol in the prompt with "🐱"
 [character]                            # The name of the module we are configuring is "character"
-success_symbol = "[• ](bold fg:green) "
-error_symbol = "[• 󰅙](bold fg:red) "
+success_symbol = "[🐱](bold fg:green) "
+error_symbol = "[😿](bold fg:red) "
 
 # Disable the package module, hiding it from the prompt completely
 [package]
@@ -66,9 +66,9 @@ symbol = " "
 style = "bold dimmed green"
 
 [time]
-disabled = true
-format = '🕙[\[ $time \]]($style) '
-time_format = "%T"
+disabled = false
+format = '[🕐 $time](bold fg:blue) '
+time_format = "%H:%M:%S"
 
 [username]
 style_user = "bold bg:cyan fg:black"
